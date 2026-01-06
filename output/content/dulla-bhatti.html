@@ -2,11 +2,11 @@
 <html lang="en"><head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Lohri Foods: A Celebration of Flavor</title>
+    <title>The Legend of Dulla Bhatti: Hero of Lohri</title>
     
     <!-- Meta Description & Keywords -->
-    <meta content="Explore the traditional foods of Lohri. From Til and Gur to Sarson da Saag and Makki di Roti, discover the nutritional and cultural significance of Punjabi winter cuisine." name="description"/>
-    <meta content="Lohri Food, Sarson da Saag, Makki di Roti, Til Gur, Rewri, Gajak, Punjabi Cuisine, Winter Festival Food, Lohri Prasad" name="keywords"/>
+    <meta content="Discover the legend of Dulla Bhatti, the 'Robin Hood of Punjab', and his central role in Lohri celebrations. Learn about the story of Sundri and Mundri and the symbolism of resistance and justice." name="description"/>
+    <meta content="Dulla Bhatti Legend, Lohri Folk Hero, Sundri Mundariye Story, Robin Hood of Punjab, Lohri History, Punjabi Folklore, Mughal Era Rebels, Lohri 2025" name="keywords"/>
     <meta content="Lohri Festival Interactive" name="author"/>
 
     <!-- Tailwind CSS -->
@@ -45,7 +45,12 @@
 
         /* Hero Overlay */
         .hero-overlay {
-            background: linear-gradient(to right, rgba(124, 45, 18, 0.95), rgba(124, 45, 18, 0.6));
+            background: linear-gradient(to right, rgba(124, 45, 18, 0.95), rgba(124, 45, 18, 0.7));
+        }
+
+        /* Card Hover Effects */
+        .info-card:hover {
+            transform: translateY(-5px);
         }
     </style>
 </head>
@@ -57,21 +62,21 @@
             <div class="flex justify-between items-center h-16">
                 <!-- Logo -->
                 <div class="flex items-center space-x-2 font-bold text-xl cursor-pointer hover:opacity-90 transition" onclick="switchTab('home')">
-                    <i class="text-orange-400" data-lucide="utensils-crossed"></i>
-                    <span class="serif-font tracking-wide">Lohri Flavors</span>
+                    <i class="text-orange-400" data-lucide="shield"></i>
+                    <span class="serif-font tracking-wide">Dulla Bhatti</span>
                 </div>
                 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-6">
                     <button class="nav-btn text-orange-400 font-semibold border-b-2 border-orange-400 hover:text-orange-300 transition-colors py-1" data-target="home" onclick="switchTab('home')">Overview</button>
-                    <button class="nav-btn hover:text-orange-300 transition-colors py-1" data-target="prasad" onclick="switchTab('prasad')">Lohri Prasad</button>
-                    <button class="nav-btn hover:text-orange-300 transition-colors py-1" data-target="feast" onclick="switchTab('feast')">The Grand Feast</button>
-                    <button class="nav-btn hover:text-orange-300 transition-colors py-1" data-target="recipes" onclick="switchTab('recipes')">Recipes</button>
+                    <button class="nav-btn hover:text-orange-300 transition-colors py-1" data-target="legend" onclick="switchTab('legend')">The Legend</button>
+                    <button class="nav-btn hover:text-orange-300 transition-colors py-1" data-target="sundri" onclick="switchTab('sundri')">Sundri &amp; Mundri</button>
+                    <button class="nav-btn hover:text-orange-300 transition-colors py-1" data-target="legacy" onclick="switchTab('legacy')">Legacy</button>
                 </div>
 
                 <!-- Mobile Menu Icon -->
                 <div class="md:hidden flex space-x-4 text-sm">
-                    <button class="hover:text-orange-200 flex items-center gap-1" onclick="switchTab('feast')"><i class="w-4 h-4" data-lucide="chef-hat"></i> Feast</button>
+                    <button class="hover:text-orange-200 flex items-center gap-1" onclick="switchTab('legend')"><i class="w-4 h-4" data-lucide="book-open"></i> Story</button>
                 </div>
             </div>
         </div>
@@ -80,188 +85,182 @@
     <!-- Main Content Area -->
     <main class="flex-grow pb-12">
         
-        <!-- HOME SECTION -->
+        <!-- HOME / OVERVIEW SECTION -->
         <div class="tab-content active animate-fade-in" id="home">
             <!-- Hero with Image -->
             <div class="relative bg-amber-900 text-white py-24 px-4 overflow-hidden">
                 <!-- Background Image with Overlay -->
                 <div class="absolute inset-0 z-0">
-                    <img alt="Festive Background" class="w-full h-full object-cover opacity-60 mix-blend-overlay" src="https://storage.googleapis.com/imagesg/festivals/karwa-chauth/500w/seviya-kheer.png"/>
+                    <img alt="Historical Folk Hero Background" class="w-full h-full object-cover opacity-60 mix-blend-overlay" src="https://storage.googleapis.com/imagesg/festivals/karwa-chauth/500w/seviya-kheer.png"/>
                     <div class="absolute inset-0 hero-overlay"></div>
                 </div>
 
                 <div class="relative max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12 z-10">
                     <div class="md:w-1/2 text-left">
-                        <div class="inline-block bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-bold mb-4 uppercase tracking-wider">Taste of Punjab</div>
-                        <h1 class="text-5xl md:text-7xl font-bold mb-6 text-orange-100 drop-shadow-lg leading-tight serif-font">Warmth on a Plate</h1>
+                        <div class="inline-block bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-bold mb-4 uppercase tracking-wider">Robin Hood of Punjab</div>
+                        <h1 class="text-5xl md:text-6xl font-bold mb-6 text-orange-100 drop-shadow-lg leading-tight serif-font">The Hero of Lohri</h1>
                         <p class="text-xl mb-8 text-amber-100 leading-relaxed font-light">
-                            Lohri food reflects winter nutrition, agricultural abundance, and gratitude. From crunchy Rewri to hearty Sarson da Saag, every bite tells a story of survival and joy.
+                            Lohri's cultural soul is deeply intertwined with the legend of Dulla Bhatti, a 16th-century folk hero whose story of justice and compassion echoes through the festival's songs.
                         </p>
-                        <button class="bg-orange-600 text-white px-8 py-3 rounded-full font-bold hover:bg-orange-500 transition transform hover:scale-105 shadow-lg flex items-center gap-2" onclick="switchTab('prasad')">
-                            See Traditional Prasad <i class="w-5 h-5" data-lucide="arrow-right"></i>
+                        <button class="bg-orange-600 text-white px-8 py-3 rounded-full font-bold hover:bg-orange-500 transition transform hover:scale-105 shadow-lg flex items-center gap-2" onclick="switchTab('legend')">
+                            Read His Story <i class="w-5 h-5" data-lucide="arrow-right"></i>
                         </button>
                     </div>
 
                     <!-- Visual Element -->
                     <div class="md:w-1/2 flex justify-center">
-                        <img alt="Lohri Festive Platter" class="rounded-full shadow-2xl border-4 border-orange-300 w-80 h-80 object-cover hover:scale-105 transition-transform duration-500" src="https://storage.googleapis.com/imagesg/festivals/makarsankranti/500w/makarsankranti-food.png"/>
+                        <div class="bg-white/10 backdrop-blur-md p-8 rounded-full border-4 border-orange-300 shadow-2xl relative">
+                             <i class="w-40 h-40 text-orange-100" data-lucide="sword"></i>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Intro Content -->
             <div class="max-w-4xl mx-auto px-4 py-16 text-center">
-                <h2 class="text-3xl font-bold text-amber-900 mb-6">Seasonal &amp; Spiritual</h2>
+                <h2 class="text-3xl font-bold text-amber-900 mb-6">More Than a Myth</h2>
                 <p class="text-lg text-gray-700 leading-relaxed mb-10">
-                    Food is central to Lohri because it symbolizes warmth, energy, and sharing. Every ingredient—especially sesame, jaggery, maize, and mustard greens—has cultural meaning and health benefits rooted in Ayurveda.
+                    Dulla Bhatti was a real figure who lived during the reign of Emperor Akbar. He rebelled against unjust taxes and became a champion of the poor, earning him a permanent place in Punjabi folklore.
                 </p>
                 
-                <div class="grid md:grid-cols-2 gap-8 text-left">
-                    <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-amber-600">
-                        <h3 class="text-xl font-bold text-amber-800 mb-3 flex items-center gap-2"><i class="w-5 h-5" data-lucide="thermometer-sun"></i> Winter Nutrition</h3>
-                        <p class="text-gray-600">Sesame seeds generate internal heat, while Jaggery boosts immunity and digestion against the cold.</p>
+                <div class="grid md:grid-cols-3 gap-8 text-left">
+                    <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-amber-600 hover:shadow-lg transition">
+                        <h3 class="text-xl font-bold text-amber-800 mb-3 flex items-center gap-2"><i class="w-5 h-5" data-lucide="shield"></i> Protector</h3>
+                        <p class="text-gray-600">Famous for saving young girls from slavery and arranging their marriages with dignity.</p>
                     </div>
-                    <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-orange-500">
-                        <h3 class="text-xl font-bold text-orange-800 mb-3 flex items-center gap-2"><i class="w-5 h-5" data-lucide="sprout"></i> Agrarian Roots</h3>
-                        <p class="text-gray-600">Dishes like Sarson da Saag celebrate winter greens harvested fresh from the fields.</p>
+                    <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-orange-500 hover:shadow-lg transition">
+                        <h3 class="text-xl font-bold text-orange-800 mb-3 flex items-center gap-2"><i class="w-5 h-5" data-lucide="fist"></i> Rebel</h3>
+                        <p class="text-gray-600">Led a revolt against the exploitative land revenue system imposed on farmers.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-yellow-600 hover:shadow-lg transition">
+                        <h3 class="text-xl font-bold text-yellow-800 mb-3 flex items-center gap-2"><i class="w-5 h-5" data-lucide="music"></i> Icon</h3>
+                        <p class="text-gray-600">His legacy is preserved in the songs sung by children door-to-door on Lohri.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- PRASAD SECTION -->
-        <div class="tab-content animate-fade-in" id="prasad">
+        <!-- THE LEGEND SECTION -->
+        <div class="tab-content animate-fade-in" id="legend">
+            <div class="max-w-6xl mx-auto px-4 py-12">
+                <div class="text-center mb-12">
+                    <span class="text-orange-600 font-bold tracking-widest uppercase text-sm">Historical Context</span>
+                    <h2 class="text-4xl font-bold text-gray-900 mt-2 serif-font">Who Was Dulla Bhatti?</h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-orange-500 info-card transition-all">
+                            <h3 class="text-xl font-bold text-orange-900 mb-2">The Rebel</h3>
+                            <p class="text-gray-700">Living during Akbar's reign, Dulla Bhatti challenged imperial authority. He refused to pay unjust taxes and effectively redistributed wealth from oppressive officials to the poor villagers.</p>
+                        </div>
+                         <div class="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-orange-500 info-card transition-all">
+                            <h3 class="text-xl font-bold text-orange-900 mb-2">The Outlaw</h3>
+                            <p class="text-gray-700">Branded a criminal by the state but a hero by the masses, he lived as an outlaw to protect his people's rights, becoming a symbol of resistance against tyranny.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-amber-100 p-8 rounded-3xl relative overflow-hidden">
+                        <i class="absolute top-4 right-4 text-amber-200 w-32 h-32 opacity-50" data-lucide="scroll"></i>
+                        <h3 class="text-2xl font-bold text-amber-900 mb-4 relative z-10">A Moral Icon</h3>
+                        <p class="text-amber-800 relative z-10 leading-relaxed">
+                            "His defiance made him a hero among the masses... acting as a father figure to the helpless."
+                        </p>
+                        <div class="mt-6 border-t border-amber-200 pt-4 relative z-10">
+                            <p class="text-sm text-amber-700 font-semibold">16th Century Punjab</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SUNDRI & MUNDRI SECTION -->
+        <div class="tab-content animate-fade-in" id="sundri">
             <div class="max-w-5xl mx-auto px-4 py-12">
                 <div class="text-center mb-12">
-                    <span class="text-orange-600 font-bold tracking-widest uppercase text-sm">Offerings to Agni</span>
-                    <h2 class="text-4xl font-bold text-gray-900 mt-2 serif-font">The Lohri Prasad</h2>
+                    <span class="text-orange-600 font-bold tracking-widest uppercase text-sm">The Famous Tale</span>
+                    <h2 class="text-4xl font-bold text-gray-900 mt-2 serif-font">Daughters of Punjab</h2>
                 </div>
 
-                <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
-                    <div class="order-2 md:order-1">
-                        <div class="space-y-6">
-                            <div class="flex gap-4">
-                                <div class="bg-amber-100 p-3 rounded-full h-min"><i class="w-6 h-6 text-amber-700" data-lucide="wheat"></i></div>
-                                <div>
-                                    <h3 class="text-xl font-bold text-gray-900">Til (Sesame)</h3>
-                                    <p class="text-gray-600 text-sm">Symbolizes warmth, fertility, and continuity of life. Used in laddoos and gajak.</p>
-                                </div>
-                            </div>
-                            <div class="flex gap-4">
-                                <div class="bg-amber-100 p-3 rounded-full h-min"><i class="w-6 h-6 text-amber-700" data-lucide="candy"></i></div>
-                                <div>
-                                    <h3 class="text-xl font-bold text-gray-900">Gur (Jaggery)</h3>
-                                    <p class="text-gray-600 text-sm">Represents sweetness and prosperity. A reminder to live life with gratitude.</p>
-                                </div>
-                            </div>
-                            <div class="flex gap-4">
-                                <div class="bg-amber-100 p-3 rounded-full h-min"><i class="w-6 h-6 text-amber-700" data-lucide="gift"></i></div>
-                                <div>
-                                    <h3 class="text-xl font-bold text-gray-900">Rewri &amp; Gajak</h3>
-                                    <p class="text-gray-600 text-sm">Crunchy sweets made of sesame and jaggery. Distributed generously to spread joy.</p>
-                                </div>
-                            </div>
+                <div class="bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+                    <div class="md:w-1/2 bg-orange-50 p-10 flex flex-col justify-center">
+                        <div class="mb-6">
+                            <span class="bg-orange-200 text-orange-800 px-3 py-1 rounded-full text-xs font-bold uppercase">The Rescue</span>
+                        </div>
+                        <h3 class="text-3xl font-bold text-orange-900 mb-4 serif-font">Sundri and Mundri</h3>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            Two orphaned girls were in danger of being sold into slavery by a powerful landlord. Dulla Bhatti intervened, rescuing them and taking them under his protection as his own daughters.
+                        </p>
+                        <div class="flex items-center gap-3 text-orange-700 font-semibold">
+                            <i class="w-5 h-5" data-lucide="music-2"></i>
+                            <span>Immortalized in "Sundar Mundariye Ho"</span>
                         </div>
                     </div>
-                    <div class="order-1 md:order-2">
-                        <img alt="Traditional Thali" class="rounded-2xl shadow-xl w-full h-64 object-cover" src="https://storage.googleapis.com/imagesg/festivals/karwa-chauth/500w/puri-platter.png"/>
+                    <div class="md:w-1/2 p-10 bg-amber-900 text-white flex flex-col justify-center relative">
+                        <!-- Decorative Pattern -->
+                        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+                        
+                        <h3 class="text-2xl font-bold mb-4 relative z-10">The Wedding</h3>
+                        <p class="text-orange-100 mb-6 relative z-10">
+                            He arranged their marriages on Lohri night. Since they were poor, he provided a simple dowry himself:
+                        </p>
+                        <ul class="space-y-4 relative z-10">
+                            <li class="flex items-center gap-3">
+                                <div class="bg-orange-500/20 p-2 rounded-full"><i class="w-5 h-5 text-orange-300" data-lucide="check"></i></div>
+                                <span>A Ser (measure) of Sugar</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <div class="bg-orange-500/20 p-2 rounded-full"><i class="w-5 h-5 text-orange-300" data-lucide="check"></i></div>
+                                <span>Sesame Seeds (Til)</span>
+                            </li>
+                        </ul>
+                        <p class="mt-8 text-sm italic text-orange-300 relative z-10">
+                            This act of compassion elevated him from a rebel to a moral icon.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- FEAST SECTION -->
-        <div class="tab-content animate-fade-in" id="feast">
-            <div class="max-w-5xl mx-auto px-4 py-16 bg-white my-8 rounded-3xl shadow-sm">
-                <h2 class="text-4xl font-bold text-center text-amber-900 mb-10 serif-font">The Signature Meal</h2>
-                
-                <div class="grid md:grid-cols-2 gap-10">
-                    <!-- Makki di Roti -->
-                    <div class="group cursor-pointer">
-                        <div class="relative overflow-hidden rounded-2xl mb-4 h-64">
-                            <img alt="Makki di Roti" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" src="https://storage.googleapis.com/imagesu/photos500/indian-restaurant-1.png"/>
-                            <div class="absolute bottom-0 left-0 bg-gradient-to-t from-black/70 to-transparent p-4 w-full">
-                                <h3 class="text-white text-xl font-bold">Makki di Roti</h3>
-                            </div>
-                        </div>
-                        <p class="text-gray-600 leading-relaxed">
-                            Thick, rustic maize flatbread made from cornmeal. Best enjoyed with a dollop of homemade white butter. It highlights seasonal eating practices.
-                        </p>
-                    </div>
-
-                    <!-- Sarson da Saag -->
-                    <div class="group cursor-pointer">
-                        <div class="relative overflow-hidden rounded-2xl mb-4 h-64">
-                            <img alt="Sarson da Saag" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" src="https://storage.googleapis.com/imagesg/festivals/karwa-chauth/500w/shahi-paneer.png"/>
-                             <div class="absolute bottom-0 left-0 bg-gradient-to-t from-black/70 to-transparent p-4 w-full">
-                                <h3 class="text-white text-xl font-bold">Sarson da Saag</h3>
-                            </div>
-                        </div>
-                        <p class="text-gray-600 leading-relaxed">
-                            A slow-cooked curry made from mustard greens, spinach, and bathua. Seasoned simply to preserve its earthy flavor and rich antioxidants.
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="mt-12 text-center">
-                    <p class="text-lg text-amber-800 font-serif italic">"Together, these dishes embody Punjab’s agricultural identity and Lohri’s rustic soul."</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- RECIPES SECTION -->
-        <div class="tab-content animate-fade-in" id="recipes">
+        <!-- LEGACY SECTION -->
+        <div class="tab-content animate-fade-in" id="legacy">
             <div class="max-w-6xl mx-auto px-4 py-12">
-                <h2 class="text-3xl font-bold text-center text-amber-900 mb-10 serif-font">Try Authentic Recipes</h2>
-                
-                <div class="grid md:grid-cols-3 gap-6">
-                    <!-- Recipe 1 -->
-                    <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-yellow-500 hover:shadow-xl transition-shadow">
-                        <div class="flex justify-between items-start mb-4">
-                            <h3 class="text-xl font-bold text-gray-800">Til-Gur Laddoos</h3>
-                            <i class="text-yellow-500" data-lucide="cookie"></i>
-                        </div>
-                        <ul class="text-sm text-gray-600 space-y-2 mb-4">
-                            <li>• Roasted sesame seeds</li>
-                            <li>• Melted jaggery</li>
-                            <li>• A little ghee</li>
-                        </ul>
-                        <div class="bg-yellow-50 p-3 rounded-lg text-xs text-yellow-800 font-semibold">
-                            High in calcium &amp; iron. Great energy booster!
-                        </div>
-                    </div>
+                <div class="text-center mb-12">
+                    <span class="text-orange-600 font-bold tracking-widest uppercase text-sm">Enduring Spirit</span>
+                    <h2 class="text-4xl font-bold text-gray-900 mt-2 serif-font">A Living Legend</h2>
+                </div>
 
-                    <!-- Recipe 2 -->
-                    <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-orange-500 hover:shadow-xl transition-shadow">
-                        <div class="flex justify-between items-start mb-4">
-                            <h3 class="text-xl font-bold text-gray-800">Homemade Gajak</h3>
-                            <i class="text-orange-500" data-lucide="layers"></i>
-                        </div>
-                        <ul class="text-sm text-gray-600 space-y-2 mb-4">
-                            <li>• Sesame seeds</li>
-                            <li>• Jaggery</li>
-                            <li>• Peanuts (optional)</li>
-                        </ul>
-                        <div class="bg-orange-50 p-3 rounded-lg text-xs text-orange-800 font-semibold">
-                            No preservatives. Better control over sweetness.
-                        </div>
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <!-- Legacy 1 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-red-500 info-card transition-all">
+                        <i class="w-10 h-10 text-red-600 mb-4" data-lucide="mic-2"></i>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Oral History</h3>
+                        <p class="text-gray-600 text-sm">
+                            Songs passed down through generations serve as collective memory, ensuring his story isn't confined to books but lives in the hearts of people.
+                        </p>
                     </div>
+                    <!-- Legacy 2 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-amber-500 info-card transition-all">
+                        <i class="w-10 h-10 text-amber-600 mb-4" data-lucide="flame"></i>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">The Bonfire</h3>
+                        <p class="text-gray-600 text-sm">
+                            The communal fire mirrors his spirit—bringing people together, providing warmth, and symbolizing hope against harsh conditions.
+                        </p>
+                    </div>
+                    <!-- Legacy 3 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-orange-500 info-card transition-all">
+                        <i class="w-10 h-10 text-orange-600 mb-4" data-lucide="heart-handshake"></i>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Values</h3>
+                        <p class="text-gray-600 text-sm">
+                            By remembering him, communities reaffirm timeless values: standing up against oppression and protecting the vulnerable.
+                        </p>
+                    </div>
+                </div>
 
-                    <!-- Recipe 3 -->
-                    <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-green-600 hover:shadow-xl transition-shadow">
-                        <div class="flex justify-between items-start mb-4">
-                            <h3 class="text-xl font-bold text-gray-800">Sarson da Saag</h3>
-                            <i class="text-green-600" data-lucide="leaf"></i>
-                        </div>
-                        <ul class="text-sm text-gray-600 space-y-2 mb-4">
-                            <li>• Mustard greens, spinach</li>
-                            <li>• Garlic, ginger, chilies</li>
-                            <li>• Maize flour</li>
-                        </ul>
-                        <div class="bg-green-50 p-3 rounded-lg text-xs text-green-800 font-semibold">
-                            Rich in antioxidants. Excellent for immunity.
-                        </div>
-                    </div>
+                <div class="bg-orange-50 rounded-3xl p-8 text-center border border-orange-200">
+                    <p class="text-xl font-serif text-amber-900 italic max-w-3xl mx-auto">
+                        "It is this blend of legend and festival that makes Lohri not just a seasonal celebration, but a cultural legacy."
+                    </p>
                 </div>
             </div>
         </div>
@@ -429,7 +428,7 @@
             document.querySelectorAll('.nav-btn').forEach(btn => {
                 if(btn.dataset.target === tabId) {
                     btn.classList.add('text-orange-400', 'font-semibold', 'border-b-2', 'border-orange-400');
-                    btn.classList.remove('text-orange-400', 'hover:text-orange-300'); // Fixed color logic
+                    btn.classList.remove('text-orange-400', 'hover:text-orange-300');
                 } else {
                     btn.classList.remove('text-orange-400', 'font-semibold', 'border-b-2', 'border-orange-400');
                     btn.classList.add('hover:text-orange-300');
@@ -438,5 +437,6 @@
             window.scrollTo(0,0);
         }
     </script>
+
 
 </body></html>

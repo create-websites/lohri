@@ -2,10 +2,10 @@
 <html lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Lohri Bonefire | Stories &amp; Wishes</title>
+<title>Lohri Festival Celebration | History, Wishes &amp; Bonfire</title>
 <!-- Meta Description & Keywords -->
-<meta content="Celebrate the warmth of the Lohri festival by lightening digital bonefire. Read the stories of Dulla Bhatti and the Sun God, explore history, view festive images, and share heartwarming Lohri wishes." name="description"/>
-<meta content="Lohri, Lohri Stories, Dulla Bhatti, Bonfire, Punjab, Harvest Festival, Lohri Wishes, Happy Lohri 2025" name="keywords"/>
+<meta content="Celebrate the warmth of the Lohri festival. Explore the history of Dulla Bhatti, significance of the harvest, view festive images, and share heartwarming Lohri wishes. Light our interactive virtual bonfire!" name="description"/>
+<meta content="Lohri, Lohri Festival, Dulla Bhatti, Bonfire, Punjab, Harvest Festival, Lohri Wishes, Happy Lohri, Lohri 2025, Lohri Traditions, Rewri, Gajak" name="keywords"/>
 <meta content="Lohri Festival Interactive" name="author"/>
 <!-- Tailwind CSS -->
 <script src="https://cdn.tailwindcss.com"></script>
@@ -42,21 +42,12 @@
         .bonfire-glow {
             filter: drop-shadow(0 0 20px rgba(255, 165, 0, 0.6));
         }
-        
-        /* Card Hover Effects */
-        .story-card {
-            transition: all 0.3s ease;
-        }
-        .story-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
-        }
     </style>
 </head>
 <body class="bg-orange-50 text-gray-800 min-h-screen flex flex-col">
 <!-- Navigation -->
 <nav class="bg-red-700 text-white sticky top-0 z-50 shadow-lg">
-<div class="max-w-7xl mx-auto px-4">
+<div class="max-w-6xl mx-auto px-4">
 <div class="flex justify-between items-center h-16">
 <!-- Logo -->
 <div class="flex items-center space-x-2 font-bold text-xl cursor-pointer hover:opacity-90 transition" onclick="switchTab('home')">
@@ -64,16 +55,14 @@
 <span>Lohri Festival</span>
 </div>
 <!-- Desktop Menu -->
-<div class="hidden md:flex space-x-6 lg:space-x-8">
+<div class="hidden md:flex space-x-8">
 <button class="nav-btn text-yellow-400 font-semibold border-b-2 border-yellow-400 hover:text-yellow-300 transition-colors" data-target="home" onclick="switchTab('home')">Home</button>
-<button class="nav-btn hover:text-yellow-300 transition-colors" data-target="stories" onclick="switchTab('stories')">Folklore &amp; Stories</button>
-<button class="nav-btn hover:text-yellow-300 transition-colors" data-target="history" onclick="switchTab('history')">History</button>
+<button class="nav-btn hover:text-yellow-300 transition-colors" data-target="history" onclick="switchTab('history')">History &amp; Rituals</button>
 <button class="nav-btn hover:text-yellow-300 transition-colors" data-target="gallery" onclick="switchTab('gallery')">Gallery</button>
 <button class="nav-btn hover:text-yellow-300 transition-colors" data-target="wishes" onclick="switchTab('wishes')">Wishes</button>
 </div>
 <!-- Mobile Menu Icon -->
 <div class="md:hidden flex space-x-4 text-sm">
-<button class="hover:text-yellow-200 flex items-center gap-1" onclick="switchTab('stories')"><i class="w-4 h-4" data-lucide="book-open"></i> Stories</button>
 <button class="hover:text-yellow-200 flex items-center gap-1" onclick="switchTab('wishes')"><i class="w-4 h-4" data-lucide="message-circle"></i> Wishes</button>
 </div>
 </div>
@@ -145,117 +134,11 @@
 </div>
 </div>
 </div>
-<!-- STORIES SECTION (NEW) -->
-<div class="tab-content animate-fade-in" id="stories">
-<div class="max-w-6xl mx-auto px-4 py-12">
-<div class="text-center mb-12">
-<h2 class="text-3xl md:text-4xl font-bold text-red-800 mb-4 flex items-center justify-center gap-3">
-<i class="w-8 h-8" data-lucide="book-open"></i> Folklore &amp; Stories
-                    </h2>
-<p class="text-lg text-gray-600 max-w-2xl mx-auto">Lohri is rich with folklore, legends, and regional tales passed down through generations in Punjab. Explore the most popular stories.</p>
-</div>
-<div class="grid md:grid-cols-2 gap-8">
-<!-- Story 1: Dulla Bhatti -->
-<div class="story-card bg-white p-8 rounded-2xl shadow-sm border border-orange-100 relative overflow-hidden">
-<div class="absolute top-0 right-0 p-4 opacity-10">
-<i class="w-24 h-24 text-orange-600" data-lucide="sword"></i>
-</div>
-<div class="flex items-center gap-3 mb-4">
-<span class="bg-red-100 text-red-600 p-2 rounded-lg"><i class="w-6 h-6" data-lucide="shield"></i></span>
-<h3 class="text-2xl font-bold text-gray-800 serif-font">The Legend of Dulla Bhatti</h3>
-</div>
-<p class="text-gray-600 leading-relaxed mb-4">
-                            Long ago, during the Mughal era, lived <strong>Dulla Bhatti</strong>, a brave and generous rebel from Punjab—often called the "Robin Hood of Punjab." He stood up against oppression and protected poor villagers from exploitation.
-                        </p>
-<p class="text-gray-600 leading-relaxed mb-4">
-                            One famous tale says that Dulla Bhatti rescued young girls who were being forcibly taken away and arranged their weddings, giving them dowries from his own wealth. Two such girls, <strong>Sundri and Mundri</strong>, are still remembered in Lohri songs.
-                        </p>
-<blockquote class="bg-orange-50 border-l-4 border-orange-500 pl-4 py-2 italic text-gray-700">
-                            “Sundri Mundri ho! Tera kaun vichara ho! Dulla Bhatti wala ho!”
-                        </blockquote>
-</div>
-<!-- Story 2: Sun God -->
-<div class="story-card bg-white p-8 rounded-2xl shadow-sm border border-orange-100 relative overflow-hidden">
-<div class="absolute top-0 right-0 p-4 opacity-10">
-<i class="w-24 h-24 text-yellow-500" data-lucide="sun"></i>
-</div>
-<div class="flex items-center gap-3 mb-4">
-<span class="bg-yellow-100 text-yellow-600 p-2 rounded-lg"><i class="w-6 h-6" data-lucide="sun"></i></span>
-<h3 class="text-2xl font-bold text-gray-800 serif-font">Celebration of the Sun God</h3>
-</div>
-<p class="text-gray-600 leading-relaxed mb-4">
-                            Lohri marks the time when the Sun begins its northward journey (Uttarayan) after the winter solstice. Ancient farmers believed this was the Sun’s return to bring warmth and prosperity.
-                        </p>
-<p class="text-gray-600 leading-relaxed">
-                            People light bonfires as a symbol of the Sun’s energy, offering sesame seeds (til), jaggery (gur), peanuts, and popcorn. The fire represents hope, renewal, and gratitude for nature’s cycles.
-                        </p>
-</div>
-<!-- Story 3: Farmer's Harvest -->
-<div class="story-card bg-white p-8 rounded-2xl shadow-sm border border-orange-100 relative overflow-hidden">
-<div class="absolute top-0 right-0 p-4 opacity-10">
-<i class="w-24 h-24 text-green-600" data-lucide="wheat"></i>
-</div>
-<div class="flex items-center gap-3 mb-4">
-<span class="bg-green-100 text-green-600 p-2 rounded-lg"><i class="w-6 h-6" data-lucide="sprout"></i></span>
-<h3 class="text-2xl font-bold text-gray-800 serif-font">The Farmer’s Harvest</h3>
-</div>
-<p class="text-gray-600 leading-relaxed mb-4">
-                            In agrarian Punjab, Lohri celebrates the end of winter sowing and the harvest of sugarcane. After months of hard work, farmers finally breathe easy.
-                        </p>
-<p class="text-gray-600 leading-relaxed">
-                            The story passed down is simple but powerful: When crops survive the harsh cold, humans thank fire, earth, and sky for protection. The bonfire becomes a community gathering where stories, songs, and prayers are shared for a prosperous harvest.
-                        </p>
-</div>
-<!-- Story 4: Newlyweds & Newborns -->
-<div class="story-card bg-white p-8 rounded-2xl shadow-sm border border-orange-100 relative overflow-hidden">
-<div class="absolute top-0 right-0 p-4 opacity-10">
-<i class="w-24 h-24 text-pink-500" data-lucide="heart-handshake"></i>
-</div>
-<div class="flex items-center gap-3 mb-4">
-<span class="bg-pink-100 text-pink-600 p-2 rounded-lg"><i class="w-6 h-6" data-lucide="baby"></i></span>
-<h3 class="text-2xl font-bold text-gray-800 serif-font">Newlyweds &amp; Newborns</h3>
-</div>
-<p class="text-gray-600 leading-relaxed mb-4">
-                            A cherished tradition says that a woman’s first Lohri after marriage or a child’s first Lohri after birth brings special blessings.
-                        </p>
-<p class="text-gray-600 leading-relaxed">
-                            Families tell a story that Lohri’s fire carries prayers upward to bless fertility, happiness, and the continuity of family lineage. That’s why such Lohri celebrations are often bigger and more joyful.
-                        </p>
-</div>
-<!-- Story 5: Fire Destroys Evil -->
-<div class="story-card bg-white p-8 rounded-2xl shadow-sm border border-orange-100 relative overflow-hidden">
-<div class="absolute top-0 right-0 p-4 opacity-10">
-<i class="w-24 h-24 text-red-600" data-lucide="flame-kindling"></i>
-</div>
-<div class="flex items-center gap-3 mb-4">
-<span class="bg-red-100 text-red-600 p-2 rounded-lg"><i class="w-6 h-6" data-lucide="flame"></i></span>
-<h3 class="text-2xl font-bold text-gray-800 serif-font">Fire That Destroys Evil</h3>
-</div>
-<p class="text-gray-600 leading-relaxed">
-                            An old folk belief says that winter brings negative energies, illness, and darkness. Lighting the Lohri bonfire is believed to burn away evil spirits and misfortune. People walk around the fire (parikrama), throwing offerings while silently wishing for health, protection, and abundance.
-                        </p>
-</div>
-<!-- Story 6: Living Stories -->
-<div class="story-card bg-white p-8 rounded-2xl shadow-sm border border-orange-100 relative overflow-hidden">
-<div class="absolute top-0 right-0 p-4 opacity-10">
-<i class="w-24 h-24 text-blue-500" data-lucide="mic-2"></i>
-</div>
-<div class="flex items-center gap-3 mb-4">
-<span class="bg-blue-100 text-blue-600 p-2 rounded-lg"><i class="w-6 h-6" data-lucide="music-2"></i></span>
-<h3 class="text-2xl font-bold text-gray-800 serif-font">Songs as Living Stories</h3>
-</div>
-<p class="text-gray-600 leading-relaxed">
-                            Many Lohri stories aren’t written — they’re sung. Traditional Lohri songs talk about brave heroes, hardworking farmers, love, loss, and celebration. Each generation adds verses, making Lohri a living oral tradition that connects the past to the present.
-                        </p>
-</div>
-</div>
-</div>
-</div>
 <!-- HISTORY SECTION -->
 <div class="tab-content animate-fade-in" id="history">
 <div class="max-w-4xl mx-auto px-4 py-12">
 <h2 class="text-3xl md:text-4xl font-bold text-center text-red-800 mb-12 flex items-center justify-center gap-3">
-<i class="w-8 h-8" data-lucide="scroll"></i> History &amp; Significance
+<i class="w-8 h-8" data-lucide="book-open"></i> History &amp; Significance
                 </h2>
 <div class="space-y-8">
 <!-- Fact 1 -->

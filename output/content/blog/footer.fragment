@@ -1,0 +1,45 @@
+<footer class="bg-gray-800 text-gray-300">
+  <div class="container mx-auto px-6 py-12 lg:px-8">
+
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+      
+      <div>
+        <h5 class="text-lg font-semibold text-white mb-4">Lohri</h5>
+        <ul class="space-y-2">
+          <li><a href="https://www.lohri.org/lohri-music-dance.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Music and Dance</a></li>
+          <li><a href="https://www.lohri.org/lohri-significance.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Significance</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5 class="text-lg font-semibold text-white mb-4">Wishes of Makarsankrnti</h5>
+        <ul class="space-y-2">
+          <li><a href="https://www.lohri.org/bonefire-ritual.html" class="hover:text-white hover:underline transition-colors duration-200">Bonefire rituals</a></li>
+          <li><a href="https://www.lohri.org/food-sweets.html" class="hover:text-white hover:underline transition-colors duration-200">First Lohri</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5 class="text-lg font-semibold text-white mb-4">Pages</h5>
+        <ul class="space-y-2">
+          <li><a href="https://www.lohri.org/blog/art-craft.html" class="hover:text-white hover:underline transition-colors duration-200">Art Craft</a></li>
+          <li><a href="https://www.lohri.org/blog/bollywood-and-lohri.html" class="hover:text-white hover:underline transition-colors duration-200">Bollywood And Lohri</a></li>
+          <li><a href="https://www.lohri.org/blog/eco-friendly-lohri.html" class="hover:text-white hover:underline transition-colors duration-200">Eco Friendly Lohri</a></li>
+          <li><a href="https://www.lohri.org/blog/lohri-and-harvest-festival.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri And Harvest Festival</a></li>
+          <li><a href="https://www.lohri.org/blog/lohri-impact-on-economy.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Impact On Economy</a></li>
+          <li><a href="https://www.lohri.org/blog/spiritual-aspect-of-lohri.html" class="hover:text-white hover:underline transition-colors duration-200">Spiritual Aspect Of Lohri</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-8 text-center text-sm text-gray-400">
+      <p class="text-sm text-gray-400">Lohri with Pitru Paksha</p>
+    </div>
+
+    <div class="mt-12 border-t border-gray-700 pt-8 flex flex-col items-center justify-between sm:flex-row">
+      <p class="text-sm text-gray-400">&copy; 2026 Lohri Best Punjabi Festival. All rights reserved.</p>
+      
+    </div>
+
+  </div>
+</footer>

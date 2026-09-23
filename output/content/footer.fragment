@@ -1,0 +1,105 @@
+<footer class="bg-gray-800 text-gray-300">
+  <div class="container mx-auto px-6 py-12 lg:px-8">
+
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+      
+      <div>
+        <h5 class="text-lg font-semibold text-white mb-4">Lohri</h5>
+        <ul class="space-y-2">
+          <li><a href="https://www.lohri.org/lohri-music-dance.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Music and Dance</a></li>
+          <li><a href="https://www.lohri.org/lohri-significance.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Significance</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5 class="text-lg font-semibold text-white mb-4">Wishes of Makarsankrnti</h5>
+        <ul class="space-y-2">
+          <li><a href="https://www.lohri.org/bonefire-ritual.html" class="hover:text-white hover:underline transition-colors duration-200">Bonefire rituals</a></li>
+          <li><a href="https://www.lohri.org/food-sweets.html" class="hover:text-white hover:underline transition-colors duration-200">First Lohri</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5 class="text-lg font-semibold text-white mb-4">Folders</h5>
+        <ul class="space-y-2">
+          <li><a href="https://www.lohri.org/blog/" class="hover:text-white hover:underline transition-colors duration-200">Blog</a></li>
+          <li><a href="https://www.lohri.org/cards/" class="hover:text-white hover:underline transition-colors duration-200">Cards</a></li>
+          <li><a href="https://www.lohri.org/diwali/" class="hover:text-white hover:underline transition-colors duration-200">Diwali</a></li>
+          <li><a href="https://www.lohri.org/festival-dates/" class="hover:text-white hover:underline transition-colors duration-200">Festival Dates</a></li>
+          <li><a href="https://www.lohri.org/first/" class="hover:text-white hover:underline transition-colors duration-200">First</a></li>
+          <li><a href="https://www.lohri.org/food/" class="hover:text-white hover:underline transition-colors duration-200">Food</a></li>
+          <li><a href="https://www.lohri.org/holi-festival/" class="hover:text-white hover:underline transition-colors duration-200">Holi Festival</a></li>
+          <li><a href="https://www.lohri.org/pictures/" class="hover:text-white hover:underline transition-colors duration-200">Pictures</a></li>
+          <li><a href="https://www.lohri.org/punjabi/" class="hover:text-white hover:underline transition-colors duration-200">Punjabi</a></li>
+          <li><a href="https://www.lohri.org/quotes/" class="hover:text-white hover:underline transition-colors duration-200">Quotes</a></li>
+          <li><a href="https://www.lohri.org/Sms/" class="hover:text-white hover:underline transition-colors duration-200">Sms</a></li>
+          <li><a href="https://www.lohri.org/songs/" class="hover:text-white hover:underline transition-colors duration-200">Songs</a></li>
+          <li><a href="https://www.lohri.org/story/" class="hover:text-white hover:underline transition-colors duration-200">Story</a></li>
+          <li><a href="https://www.lohri.org/sweets/" class="hover:text-white hover:underline transition-colors duration-200">Sweets</a></li>
+          <li><a href="https://www.lohri.org/wishes/" class="hover:text-white hover:underline transition-colors duration-200">Wishes</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5 class="text-lg font-semibold text-white mb-4">Pages</h5>
+        <ul class="space-y-2">
+          <li><a href="https://www.lohri.org/atrological-significance-of-lohri.html" class="hover:text-white hover:underline transition-colors duration-200">Atrological Significance Of Lohri</a></li>
+          <li><a href="https://www.lohri.org/bonefire-ritual.html" class="hover:text-white hover:underline transition-colors duration-200">Bonefire Ritual</a></li>
+          <li><a href="https://www.lohri.org/bonefire.html" class="hover:text-white hover:underline transition-colors duration-200">Bonefire</a></li>
+          <li><a href="https://www.lohri.org/dulla-bhatti.html" class="hover:text-white hover:underline transition-colors duration-200">Dulla Bhatti</a></li>
+          <li><a href="https://www.lohri.org/first-lohri.html" class="hover:text-white hover:underline transition-colors duration-200">First Lohri</a></li>
+          <li><a href="https://www.lohri.org/food-sweets.html" class="hover:text-white hover:underline transition-colors duration-200">Food Sweets</a></li>
+          <li><a href="https://www.lohri.org/gallery.html" class="hover:text-white hover:underline transition-colors duration-200">Gallery</a></li>
+          <li><a href="https://www.lohri.org/image.html" class="hover:text-white hover:underline transition-colors duration-200">Image</a></li>
+          <li><a href="https://www.lohri.org/kids-lohri.html" class="hover:text-white hover:underline transition-colors duration-200">Kids Lohri</a></li>
+          <li><a href="https://www.lohri.org/light-up-lohri-bonefire-on-web.html" class="hover:text-white hover:underline transition-colors duration-200">Light Up Lohri Bonefire On Web</a></li>
+          <li><a href="https://www.lohri.org/lohri-across-generations.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Across Generations</a></li>
+          <li><a href="https://www.lohri.org/lohri-and-agriculture.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri And Agriculture</a></li>
+          <li><a href="https://www.lohri.org/Lohri-and-harvest.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri And Harvest</a></li>
+          <li><a href="https://www.lohri.org/Lohri-and-new-year.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri And New Year</a></li>
+          <li><a href="https://www.lohri.org/lohri-celebrating-agriculture-nature-rhythm.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Celebrating Agriculture Nature Rhythm</a></li>
+          <li><a href="https://www.lohri.org/lohri-celebrations.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Celebrations</a></li>
+          <li><a href="https://www.lohri.org/Lohri-Date.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Date</a></li>
+          <li><a href="https://www.lohri.org/lohri-family-celebrations.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Family Celebrations</a></li>
+          <li><a href="https://www.lohri.org/lohri-festival.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Festival</a></li>
+          <li><a href="https://www.lohri.org/lohri-for-everyone.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri For Everyone</a></li>
+          <li><a href="https://www.lohri.org/lohri-history-bonfire-makar-sankranti.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri History Bonfire Makar Sankranti</a></li>
+          <li><a href="https://www.lohri.org/lohri-kids-celebrations.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Kids Celebrations</a></li>
+          <li><a href="https://www.lohri.org/lohri-mela.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Mela</a></li>
+          <li><a href="https://www.lohri.org/lohri-menu.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Menu</a></li>
+          <li><a href="https://www.lohri.org/Lohri-messages.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Messages</a></li>
+          <li><a href="https://www.lohri.org/lohri-music-dance.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Music Dance</a></li>
+          <li><a href="https://www.lohri.org/lohri-newly-wedded-couples.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Newly Wedded Couples</a></li>
+          <li><a href="https://www.lohri.org/lohri-origin.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Origin</a></li>
+          <li><a href="https://www.lohri.org/lohri-rituals-and-songs.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Rituals And Songs</a></li>
+          <li><a href="https://www.lohri.org/lohri-rituals.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Rituals</a></li>
+          <li><a href="https://www.lohri.org/lohri-significance.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Significance</a></li>
+          <li><a href="https://www.lohri.org/lohri-songs-meaning.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Songs Meaning</a></li>
+          <li><a href="https://www.lohri.org/lohri-songs.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Songs</a></li>
+          <li><a href="https://www.lohri.org/lohri-special-food.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Special Food</a></li>
+          <li><a href="https://www.lohri.org/lohri-thingstodo.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Thingstodo</a></li>
+          <li><a href="https://www.lohri.org/lohri-traditional-sweets-recipes.html" class="hover:text-white hover:underline transition-colors duration-200">Lohri Traditional Sweets Recipes</a></li>
+          <li><a href="https://www.lohri.org/main-lohri.html" class="hover:text-white hover:underline transition-colors duration-200">Main Lohri</a></li>
+          <li><a href="https://www.lohri.org/office-lohri.html" class="hover:text-white hover:underline transition-colors duration-200">Office Lohri</a></li>
+          <li><a href="https://www.lohri.org/pictures.html" class="hover:text-white hover:underline transition-colors duration-200">Pictures</a></li>
+          <li><a href="https://www.lohri.org/sitemap.html" class="hover:text-white hover:underline transition-colors duration-200">Sitemap</a></li>
+          <li><a href="https://www.lohri.org/stories.html" class="hover:text-white hover:underline transition-colors duration-200">Stories</a></li>
+          <li><a href="https://www.lohri.org/tips.html" class="hover:text-white hover:underline transition-colors duration-200">Tips</a></li>
+          <li><a href="https://www.lohri.org/traditional-lohri-songs.html" class="hover:text-white hover:underline transition-colors duration-200">Traditional Lohri Songs</a></li>
+          <li><a href="https://www.lohri.org/traditonal-lohri-foods.html" class="hover:text-white hover:underline transition-colors duration-200">Traditonal Lohri Foods</a></li>
+          <li><a href="https://www.lohri.org/Why-Punjabis-are-jolly.html" class="hover:text-white hover:underline transition-colors duration-200">Why Punjabis Are Jolly</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-8 text-center text-sm text-gray-400">
+      <p class="text-sm text-gray-400">Lohri with Pitru Paksha</p>
+    </div>
+
+    <div class="mt-12 border-t border-gray-700 pt-8 flex flex-col items-center justify-between sm:flex-row">
+      <p class="text-sm text-gray-400">&copy; 2026 Lohri Best Punjabi Festival. All rights reserved.</p>
+      
+    </div>
+
+  </div>
+</footer>
